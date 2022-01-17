@@ -209,7 +209,7 @@ def other() :
                                 text="Introduction à \n Python",
                                 width=longueur,
                                 height=largeur,
-                                command=TP_01,
+                                command=Introduction_a_Python,
                                 font=(font,15))
 
         TP_2 = tk.Button(app,
@@ -254,7 +254,7 @@ def other() :
         Exit.place(x=171, y=not_hide)
         AYS.place(x=110 ,y=25)
 
-def TP_01() :
+def Introduction_a_Python() :
             font="Helvetica"
             backgroud_color = '#EBF6F4'
             space = '                                                 '
